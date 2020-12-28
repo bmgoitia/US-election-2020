@@ -1,0 +1,36 @@
+[
+    {
+        "stId": "CA",
+        "stNa": "California",
+        "del": "55",
+        "pop": "39.512.223",
+        "win16": "Demócratas",
+        "win": "trump"
+
+    }, {
+        "stId": "FL",
+        "stNa": "Florida",
+        "del": "29",
+        "pop": "21.477.737",
+        "win16": "Republicanos",
+        "win": "biden"
+
+    }, {
+        "stId": "TX",
+        "stNa": "Texas",
+        "del": "38",
+        "pop": "28.995.881",
+        "win16": "Republicanos",
+        "win": "biden"
+
+    }, {
+        "stId": "MT",
+        "stNa": "Montana",
+        "del": "3",
+        "pop": "1.068.778",
+        "win16": "Republicanos",
+        "win": "trump"
+
+    }
+
+]

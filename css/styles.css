@@ -1,0 +1,250 @@
+
+
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Black.ttf'); 
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/*SVG State colors*/
+
+.state {fill:#D3D3D3;}
+
+
+/*
+The .state class sets the default fill color for all states.
+
+Individual states (such as Kansas, Montana, Pennsylvania) can be colored as follows:
+
+#KS, #MT, #PA {fill:#0000FF;}
+
+Place this code in the empty space below.
+*/
+
+
+
+/* US Map*/
+
+#usMap{
+	width: 100vw;
+	height: 600px;
+	margin: 20px;
+	text-align: center;
+	z-index: 10;
+}
+
+#mainMap{
+	
+}
+
+/*width="959" height=" 593px"*/
+
+
+/*Main modal*/
+
+
+
+
+#modalContainer{
+	/*width: 90vw;
+	position: relative;
+	   height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    box-sizing: content-box;
+    margin: 0;
+    z-index: -10;*/
+}
+
+ #mainModal{
+ 	display: none;
+ 	max-width: 450px;
+ 	margin: 0;
+ 	border: 1px solid grey;
+  border-radius: 3px;
+  position: absolute;
+  top: 50px;
+  right: 30%;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 3;
+}
+
+#mainModal .row{
+		text-align: center;
+}
+
+.infocol, .picCol{
+	 margin: 7px 0;
+}
+
+
+
+#modalClose{
+	margin-top: -40px;
+	border: none;
+  outline:none;
+}
+
+#modalClose span{
+	font-size: 3.5rem;
+}
+
+ .winImg img{
+ 	max-width: 100%;
+ 	max-height: 100%;
+ }
+
+
+.container h3{
+	font-size: 1.3rem;
+}
+
+#stateName{
+	  margin: 0 auto;
+    padding: 7px 0;
+    border-bottom: 1px solid grey;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+#elN{
+	 font-size: 3rem;
+}
+
+#stWin img{
+	padding-left: 10px;
+}
+
+#noResults{
+	display: none;
+	margin: 0 auto;
+	text-transform: uppercase;
+}
+
+
+/*Other*/
+
+
+
+/*Progress bar*/
+#resBar{
+	margin-top: 100px;
+	position: relative;
+}
+
+#results{
+	display: flex;
+	justify-content: space-between;
+	height: 60px;
+	width:70%;
+	border: 2px solid grey;
+	margin: 0 auto;
+}
+
+
+
+#trumpBar{
+	background-color: #FE0302;
+	width: ;
+	height: 100%;
+}
+
+#bidenBar{
+	background-color: #021ABC;
+	width: ;
+	height: 100%;
+	float: right;
+}
+
+#midBar{
+	 position: absolute;
+	 left: 47%;
+	 top: 100%;
+	 text-align: center;
+}
+
+#midBar p{
+	 margin-bottom: 0;
+
+}
+
+#midBar span{
+	font-size: 2rem;
+}
+
+
+
+
+/*Number of delegates and names of states won by each candidate*/
+
+#numDeleg{
+	width: 80%;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+#numDeleg h3{
+	text-transform: uppercase;
+	font-size: 2rem;
+}
+
+#numDeleg li{
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	line-height: 2;
+}
+
+
+#delegTrump, #delegBiden{
+	text-align: center;
+}
+
+#totalDelT, #totalDelB{
+	font-size: 3.5rem;
+}
+
+.statesWon{
+	text-align: center;
+}
+
+#namesStT, #namesStB{
+	list-style-type: none;
+}
+
+
+.statesWon i.fa{
+	padding-right: 8px;
+}
+
+#namesStT i.fa{
+	color:#FE0302;
+}
+
+#namesStB i.fa{
+	color:#021ABC;
+}
+
+
+/*
+@media (max-width: 500px) {
+
+
+#numDeleg {
+    width: 90%;
+    margin-top: 100px;
+}
+
+
+
+
+
+}*/
