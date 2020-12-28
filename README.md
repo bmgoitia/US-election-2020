@@ -1,1 +1,1 @@
-![US election 2020](./img/us_Election2020.png?raw=true "US 2020 election")
+![US election 2020](./img/usElection2020.png?raw=true "US 2020 election")
